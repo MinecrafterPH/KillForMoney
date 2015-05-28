@@ -44,7 +44,7 @@ use pocketmine\event\entity\EntityDamageEvent;
 			$give = $cfg->get("Add-Money")
 			$take = $cfg->get("Reduce-Money")
 			
-			$effect = Effect::getEffect($effectid); //Effect ID
+			$effect = Effect::getEffect($health_boost); //Effect ID
 	                $effect->setVisible($particles); //Particles
 	                $effect->setAmplifier($amplifier);
 	                $effect->setDuration($duration); //Ticks
